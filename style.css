@@ -4,20 +4,20 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(26, 26, 26);
+    font-family: Tahoma;
 }
 
 header nav{
     font-family: 'GodOfWar';
     height: 15vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 }
 
 header nav a{
-    position: relative;
-    left: 28%;
-    top: 30px;
-    font-size: 30px;
+    font-size: 1.75rem;
     color: white;   
     gap: 50px;
     transition: 0.3s;
@@ -28,17 +28,82 @@ header nav a:hover{
     color: blue;
 }
 
-main div{
+.index div{
     background-color: rgb(30,30,30);
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 5rem 45rem 5rem 15rem;
 }
 
-main div img{
+.presentation p{
+    text-align: justify;
+}
+
+.presentation span{
+    color: rgb(124, 124, 244);
+}
+
+.presentation img{
     position: absolute;
     top: 25%;
-    left: 60%;
-    height: 300px;
-    width: 300px;
+    left: 62%;
+    height: 350px;
+    width: 350px;
+}
+
+
+.contact{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 2.5rem;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.contact legend{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.contact label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact textarea{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    height: 100px;
+}
+
+.contact button{
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s ease-in-out;
+}
+
+.contact button:hover{
+    background: #0056b3;
 }

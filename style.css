@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/godofwar');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 26, 26);
+}
+
+header nav{
+    font-family: 'GodOfWar';
+    height: 15vh;
+    display: flex;
+    gap: 50px;
+}
+
+header nav a{
+    position: relative;
+    left: 28%;
+    top: 30px;
+    font-size: 30px;
+    color: white;   
+    gap: 50px;
+    transition: 0.3s;
+}
+
+header nav a:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
+main div{
+    background-color: rgb(30,30,30);
+    color: white;
+    font-size: 20px;
+    padding: 5rem 45rem 5rem 15rem;
+}
+
+main div img{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    height: 300px;
+    width: 300px;
+}

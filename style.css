@@ -17,7 +17,7 @@ header nav{
 }
 
 header nav a{
-    font-size: 1.75rem;
+    font-size: 1.55rem;
     color: white;   
     gap: 50px;
     transition: 0.3s;
@@ -27,6 +27,8 @@ header nav a:hover{
     transform: scale(1.1);
     color: blue;
 }
+
+/*--------------------------------------------------------*/
 
 .index div{
     background-color: rgb(30,30,30);
@@ -46,18 +48,89 @@ header nav a:hover{
 .presentation img{
     position: absolute;
     top: 25%;
-    left: 62%;
+    left: 62%;  
     height: 350px;
     width: 350px;
 }
 
+/*--------------------------------------------------------*/
+
+.wireframes{
+    max-width: 100%;
+    background-color: rgb(36,36,36);
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.wireframes p{
+    max-width: 50%;
+    margin: auto;
+}
+
+.wireframes img{
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    border-radius: 10%;
+}
+
+
+/*--------------------------------------------------------*/
+
+.activities{
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(36,36,36);
+}
+
+.activities button{
+    border-radius: 10px;
+    height: 10rem;
+    width: 30rem;
+}
+
+.activities button a{
+    color: black;
+    font-family: Tahoma;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.html{
+    background-color: #d38749;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.html:hover{
+    background-color: #ff7300;
+}
+
+.css{
+    background-color: #b7d8fc;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.css:hover{
+    background-color: #007bff;
+}
+
+/*--------------------------------------------------------*/
+
+.main-contact{
+    padding: 50px;
+    background-color: rgb(36,36,36);
+
+}
 
 .contact{
     max-width: 400px;
     margin: auto;
-    margin-top: 2.5rem;
     padding: 20px;
-    background: #f9f9f9;
+    background: #f0f8fa;
     border-radius: 10px;
 }
 
@@ -97,7 +170,7 @@ header nav a:hover{
     width: 100%;
     padding: 10px;
     background: #007bff;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     font-size: 1em;
@@ -106,4 +179,18 @@ header nav a:hover{
 
 .contact button:hover{
     background: #0056b3;
+}
+
+/*--------------------------------------------------------*/
+footer{
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div{
+    max-width: 500px;
+    margin: auto;
+    color: white;
 }
